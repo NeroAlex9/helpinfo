@@ -1,7 +1,12 @@
-import style from "./assets/App.module.scss";
+import style from "./App.module.scss";
+import Header from "./components/header/Header";
 
 function App() {
-  return <div className={style.app}>123</div>;
+  return (
+    <div className={style.container}>
+      <Header />
+    </div>
+  );
 }
 
 export default App;
